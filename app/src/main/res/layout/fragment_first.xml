@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:foregroundTint="#1E000000"
+    tools:context=".FirstFragment">
+
+
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/peach"
+        android:padding="10dp"
+        android:text="@string/calendar"
+        app:icon="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:text="@string/task_list"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="57dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
